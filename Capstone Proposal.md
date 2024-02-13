@@ -2,13 +2,24 @@
 
 EduConnect
 
+Edu Hub
+Educator Network
+EduCollab
+TeachHub
+EdUnity
+LearnLink
+EduSphere
+EduShare
+EduReach
+TeachTogether
+
 ## Overview
 
 EduConnect is a networking and resource-sharing platform designed for teachers, educators. It aims to provide a collaborative space for education professionals to share ideas, connect, and access valuable resources, ultimately enhancing the quality of education for students through the use of technology.
 
 ### Problem
 
-As an experienced teacher, education consultant, and operational manager for over 8 years, the need for an alternative learning and networking space became apparent. EduConnect addresses the challenges of traditional networking by offering a digital platform where education professionals can share insights, collaborate on projects, and access a wealth of resources to improve their teaching methodologies.
+As an experienced teacher, education consultant, and operational manager for under 8 years, the need for an alternative learning and networking space became apparent. EduConnect addresses the challenges of traditional networking by offering a digital platform where education professionals can share insights, collaborate on projects, and access a wealth of resources to improve their teaching methodologies.
 
 ### User Profile
 
@@ -16,14 +27,14 @@ Target Users:
 
 Mentorship Features
 
-Teachers and educators from various disciplines and levels.
+Teachers and educators from various disciplines and levels, boards and countries
 
 Education consultants and operational managers in the education sector.
 
 Students seeking additional learning resources.
-
+(Later pursuit.)
 Parents looking for additional resources
-
+(Later pursuit.)
 Usage:
 
 Teachers and educators can collaborate, share lesson plans, and discuss innovative teaching methods.
@@ -33,6 +44,7 @@ Parents for children for special needs. For school referral.
 
 Special Considerations:
 The platform should prioritize user privacy and data security.
+(Later pursuit.)
 Accessibility features should be implemented to accommodate users with diverse needs.
 Autism, trauma, homelessness, domestic violence
 
@@ -51,6 +63,7 @@ Threaded discussions and comment features.
 Resource Sharing:
 
 Upload and share teaching resources, lesson plans, and multimedia content.
+(Later pursuit.)
 Rating and review system for resources.
 
 Collaborative Projects:
@@ -63,7 +76,7 @@ Events and Webinars:
 Calendar for scheduling and promoting educational events.
 RSVP and access to recorded sessions.
 
-Messaging and Notifications:
+Messaging and Notifications: (Later pursuit.)
 
 Direct messaging between users.
 Notifications for new forum posts, resource uploads, and messages.
@@ -93,7 +106,7 @@ Moderation features to address inappropriate content.
 
 Frontend: React, HTML, CSS, JavaScript
 Backend: Node.js,
-Database: ?
+Database: Local
 Authentication: JSON Web Tokens (JWT)
 Additional Libraries: Axios (HTTP requests)
 
@@ -103,28 +116,30 @@ No external data sources initially; user-generated content will be the primary d
 
 I need some suggestions here!
 
-Slack API
+Slack API 
 
 ### Sitemap
 
 Home
 Discussion Forums
-Resource Hub
-Collaborative Projects
 Events and Webinars; Professional Development
 User Profile
-Messaging
-Search Results of teachers
+Resource Hub
+
+Direct Messaging
+Search Results of teachers to connect with
 
 ### Mockups
+In Assets folder
 
 ### Data
 
 User Data: Profile details, credentials, professional development logs.
+Event Data: Scheduled events, RSVP status, and recorded sessions.
+
 Forum Data: Discussion topics, threads, and user comments.
 Resource Data: Uploaded files, user ratings, and reviews.
 Project Data: Collaborative project details, members, and shared documents.
-Event Data: Scheduled events, RSVP status, and recorded sessions.
 Messaging Data: User conversations and notifications.
 
 ### Endpoints
@@ -143,34 +158,18 @@ Secure routes that require authentication.
 
 ## Roadmap
 
-Sprint 1
-User Authentication and Profile Creation: Realistically, you should be able to complete this within the first week. React, Node.js, and integration for basic user management is a well-documented process.
+Priority:
 
-Basic Forum Functionality: Implementing a basic forum structure is achievable within the second week.
+User Authentication and Profile Creation: This is the top priority as it forms the foundation of your application.
+Events and Webinars: Integrating events and webinars should be your next focus after authentication.
 
-Sprint 2
-Resource Sharing and Collaborative Projects: This stage involves more complexity. Implementing file uploads, user reviews, and project collaboration might take a bit more time. Plan to spend the full two weeks on this.
 
-User Messaging: Implementing basic messaging functionality can be achieved within the second week, especially since you have already implemented user authentication.
-
-Sprint 3
-Events and Webinars: Integrating events and webinars should be feasible within the first week.
-
-Professional Development Tracking: This might involve creating a structured form for users to log their professional development activities. This should be achievable in the second week.
-
-Sprint 4
-Search and Filter Functionality: Depending on the complexity, this could take a week or more. Implementing basic search and filters should be achievable within the first week.
-
-Testing and Issue Resolution: Testing your application thoroughly is crucial. The second week of this sprint should be dedicated to fixing any issues identified during testing.
-
-Nice-to-haves
 
 ## Nice-to-haves
 
-Notification System: Depending on the complexity, this could be implemented in a week.
-External Integrations: These may vary in complexity. You could start exploring these features in parallel with other sprints and implement them based on available time.
 
-Advanced UI Styling: This can be an ongoing process. Implement basic styling initially and enhance it as time permits.
-User Testing: Conducting user testing for feedback is essential. Consider starting this process early in the development phase and continuing it throughout the project.
-
-Flexibility: Be flexible with the timeline. Development projects often encounter unforeseen challenges.
+External Integrations: These can be explored later based on available time and resources.
+Advanced UI Styling: While important for user experience, basic styling can suffice initially, and you can enhance it gradually.
+User Testing: User testing is crucial but can be ongoing throughout the development process.
+Flexibility: Being flexible with the timeline is essential for handling unforeseen challenges.
+Considering your time constraints, it's crucial to prioritize tasks that are essential for the core
